@@ -22,7 +22,7 @@ export default function Header() {
     }, [prevScrollPos]);
 
     return (
-        <header className={`fixed top-0 left-0 w-full z-50 transition-transform bg-slate-950 ${visible ? "translate-y-0" : "-translate-y-full"}`}>
+        <header className={`fixed top-0 left-0 w-full z-50 transition-transform bg-[#050505] ${visible ? "translate-y-0" : "-translate-y-full"}`}>
             <div className="container flex items-center flex-grow relative w-full">
                 <div className="p-2">
                     <Image alt="" src="/logo.png" objectFit="contain" width={182} height={67} />

@@ -56,7 +56,7 @@ const TestimonialCarousel: React.FC = () => {
 
     const slides = SLIDES_DATA.map((slide, index) => (
         <div key={slide.text} className="embla__slide">
-            <Image src={slide.imageUrl} alt="Slide" className="w-full h-full object-cover rounded-xl" />
+            <Image src={slide.imageUrl} alt="Slide" width={433} height={355} className="w-full h-full object-cover rounded-xl" />
             <div className="embla__slide__inner relative pt-3 left-3 w-full">
                 <p className="text-white text-2xl font-semibold">{slide.text}</p>
                 <p className="text-neutral-500 text-lg">{slide.desc}</p>

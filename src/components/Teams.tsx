@@ -20,7 +20,7 @@ export default function Teams() {
                 </div>
                 <Image alt="" src="/c1.png" width={416} height={416} objectFit="cover" />
             </div>
-            <div className="flex flex-col gap-5 items-center lg:masonry pt-12">
+            <div className="masonry pt-12">
                 <div className="masonry-item masonry-item-1">
                     <Image alt="" src="/c2.png" width={405} height={707} objectFit="cover" />
                 </div>
